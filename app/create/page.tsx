@@ -42,7 +42,7 @@ export default function CreateListing() {
       createdAt: new Date().toISOString(),
     })
 
-    // Simulate a short delay for better UX
+    // Simulate a short delay
     setTimeout(() => {
       // Redirect to home page
       router.push("/")
